@@ -1,0 +1,338 @@
+<mxfile host="Electron" modified="2026-02-04T16:45:20.679Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="Mehj-8QE_7jVVPvPUTKM" version="24.4.8" type="device" pages="2">
+  <diagram name="DFD Level 1 - Закупка и учёт ТМЦ и оборудования" id="dfd-tmc-level1">
+    <mxGraphModel dx="4116" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="DFD Level 1: Закупка и учёт ТМЦ и оборудования (Procurement and Inventory Accounting)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="240" y="27" width="920" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Notation: Yourdon-DeMarco DFD" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="27" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e-warehouse" value="E1&#xa;КЛАДОВЩИК&#xa;(Warehouse keeper)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="275" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-bookkeeper" value="E2&#xa;БУХГАЛТЕР&#xa;(Bookkeeper)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="1076.11" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-supplier" value="E3&#xa;ПОСТАВЩИК&#xa;(Supplier)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#FFE6E6;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="438" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e-mgmt" value="E4&#xa;РУКОВОДСТВО&#xa;(Management)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="145" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" value="1.0&#xa;Оформить заявку&#xa;на закупку" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="280" y="159.99999999999997" width="137.795" height="137.79" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="2.0&#xa;Закупить&#xa;ТМЦ/оборудование" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="280" y="390" width="137.795" height="137.79" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="3.0&#xa;Оформить&#xa;поступление на склад" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="280" y="620" width="137.795" height="137.79" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" value="4.0&#xa;Учёт в 1С:&#xa;Торговля и склад" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="280" y="832.21" width="137.795" height="137.79" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" value="5.0&#xa;Обмен с 1С:&#xa;Бухгалтерия (OLE)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1042.21" width="137.795" height="137.79" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" value="6.0&#xa;Списание при&#xa;использовании" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1222.21" width="137.795" height="137.79" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="D1 | Заявки на закупку&#xa;(в 1С или документы)" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=0;top=0;bottom=0;strokeWidth=2;strokeColor=#006600;fillColor=#E6FFE6;fontFamily=Verdana;fontSize=10;align=center;verticalAlign=middle;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="600" y="203.9" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="D2 | 1С:Торговля и склад&#xa;(номенклатура, остатки, поступления)" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=0;top=0;bottom=0;strokeWidth=2;strokeColor=#006600;fillColor=#E6FFE6;fontFamily=Verdana;fontSize=10;align=center;verticalAlign=middle;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="640" y="1266.1" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" value="D3 | Документы поставки&#xa;(накладные, акты)" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=0;top=0;bottom=0;strokeWidth=2;strokeColor=#006600;fillColor=#E6FFE6;fontFamily=Verdana;fontSize=10;align=center;verticalAlign=middle;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="600" y="663.89" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" value="D4 | 1С:Бухгалтерия предприятия&#xa;(учёт ТМЦ, проводки, файловый режим)" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=0;top=0;bottom=0;strokeWidth=2;strokeColor=#006600;fillColor=#E6FFE6;fontFamily=Verdana;fontSize=10;align=center;verticalAlign=middle;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="640" y="1092.21" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" value="D5 | Движения и списания&#xa;(в 1С:Торговля и склад)" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=0;top=0;bottom=0;strokeWidth=2;strokeColor=#006600;fillColor=#E6FFE6;fontFamily=Verdana;fontSize=10;align=center;verticalAlign=middle;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="640" y="1382.21" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" value="Потребность в ТМЦ,&#xa;номенклатура, кол-во" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;" parent="1" source="e-warehouse" target="p1" edge="1">
+          <mxGeometry x="-0.0036" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2" value="Согласование&#xa;заявки" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="e-mgmt" target="p1" edge="1">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3" value="Заявка на закупку" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=top;" parent="1" source="p1" target="d1" edge="1">
+          <mxGeometry x="-0.0367" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4" value="Утверждённая заявка" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#0050A0;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="p1" target="p2" edge="1">
+          <mxGeometry x="-0.4064" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5" value="Заказ поставщику" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="p2" target="e-supplier" edge="1">
+          <mxGeometry x="0.5434" y="25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6" value="ТМЦ, накладные,&#xa;акты" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=top;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="e-supplier" target="p2" edge="1">
+          <mxGeometry x="-0.4241" y="29" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7" value="Данные для поступления" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#0050A0;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;" parent="1" source="p2" target="p3" edge="1">
+          <mxGeometry x="-0.0845" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f8" value="Приём на склад,&#xa;оформление документов" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="e-warehouse" target="p3" edge="1">
+          <mxGeometry x="-0.6458" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-150" y="328" />
+              <mxPoint x="-150" y="689" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="40" y="328" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9" value="Накладные, акты&#xa;приёмки" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=top;" parent="1" source="p3" target="d3" edge="1">
+          <mxGeometry x="0.0099" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f10" value="Данные поступления&#xa;для учёта" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#0050A0;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="p3" target="p4" edge="1">
+          <mxGeometry x="-0.3" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="348.89750000000004" y="820.0000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f11" value="Учёт ТМЦ" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="e-warehouse" target="p4" edge="1">
+          <mxGeometry x="-0.681" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-220" y="310" />
+              <mxPoint x="-220" y="901" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f12" value="Поступление, остатки,&#xa;номенклатура" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=top;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p4" target="d2" edge="1">
+          <mxGeometry x="-0.3" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="920" y="931.21" />
+              <mxPoint x="920" y="1291.21" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f13" value="Данные для обмена" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#0050A0;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;" parent="1" source="p4" target="p5" edge="1">
+          <mxGeometry x="-0.3" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f14" value="Данные для списания" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#0050A0;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="p4" edge="1">
+          <mxGeometry x="-0.3976" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="950" />
+              <mxPoint x="180" y="1242" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="300" y="1242.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f15" value="Внутриплатформенный&#xa;обмен (OLE)" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="e-bookkeeper" target="p5" edge="1">
+          <mxGeometry x="-0.3913" y="-31" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f16" value="Данные учёта ТМЦ&#xa;(в 1С:Бухгалтерия)" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=top;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="p5" target="d4" edge="1">
+          <mxGeometry x="0.4183" y="29" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f17" value="Данные из 1С:Бухгалтерия&#xa;(чтение/синхронизация)" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;dashed=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="d4" target="p5" edge="1">
+          <mxGeometry x="0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f18" value="Списание ТМЦ&#xa;(использование)" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="e-warehouse" target="p6" edge="1">
+          <mxGeometry x="-0.643" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-290" y="293" />
+              <mxPoint x="-290" y="1291" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f19" value="Данные остатков&#xa;(чтение)" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;dashed=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="d2" target="p6" edge="1">
+          <mxGeometry x="0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f20" value="Запись списания&#xa;(движение ТМЦ)" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=top;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="p6" target="d5" edge="1">
+          <mxGeometry x="0.2253" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f21" value="Обновление остатков" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=top;" parent="1" source="p6" target="d2" edge="1">
+          <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#999999;fillColor=#F9F9F9;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="136" width="510" height="223.6" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label" value="ЛЕГЕНДА (Legend)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="880" y="146" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-ext" value="E#" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="880" y="176" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-ext-label" value="Внешняя сущность" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="940" y="176" width="380" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-proc" value="N.0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="880" y="221" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-proc-label" value="Процесс (Process)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="940" y="231" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-store" value="D# | Название" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=0;top=0;bottom=0;strokeWidth=2;strokeColor=#006600;fillColor=#E6FFE6;fontFamily=Verdana;fontSize=9;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="880" y="281" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-store-label" value="Хранилище данных (Data Store)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="990" y="281" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-flow-solid" value="" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#333333;endFill=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="331" as="sourcePoint" />
+            <mxPoint x="980" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leg-flow-solid-label" value="Поток данных (запись)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="990" y="321" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-flow-dashed" value="" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#333333;endFill=1;endSize=8;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="331" as="sourcePoint" />
+            <mxPoint x="1260" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leg-flow-dashed-label" value="Чтение данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="321" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sec-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CC0000;fillColor=#FFE6E6;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="389.6" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sec-label" value="ПРОБЛЕМНЫЕ ЗОНЫ БЕЗОПАСНОСТИ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Verdana;fontColor=#CC0000;" parent="1" vertex="1">
+          <mxGeometry x="880" y="399.6" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sec-text" value="• 1С:Торговля и склад — в основном не персональные данные; при появлении ПДн в документах (поставщики, контакты) — пересмотр (Privacy By Design)&#xa;• Data Lineage: потоки между 1С:Торговля и 1С:Бухгалтерия (OLE) не описаны с точки зрения конфиденциальности и аудита&#xa;• Рекомендация: описать потоки между системами; защищённый канал OLE/среда; при наличии ПДн в контрактах — шифрование; теги в контрактах" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Verdana;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="880" y="429.6" width="440" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="DFD Context (Level 0)" id="dfd-tmc-context">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ctx-title" value="DFD Context Diagram (Level 0): Система «Закупка и учёт ТМЦ и оборудования»" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="160" y="30" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-system" value="0&#xa;&#xa;СИСТЕМА&#xa;«ЗАКУПКА И УЧЁТ&#xa;ТМЦ И ОБОРУДОВАНИЯ»&#xa;&#xa;Procurement &amp;&#xa;Inventory Accounting" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="370" y="220" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-warehouse" value="КЛАДОВЩИК&#xa;(Warehouse keeper)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-bookkeeper" value="БУХГАЛТЕР&#xa;(Bookkeeper)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="380" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-supplier" value="ПОСТАВЩИК&#xa;(Supplier)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#FFE6E6;fontFamily=Verdana;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-mgmt" value="РУКОВОДСТВО&#xa;(Management)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="800" y="280" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-trade" value="1С:Торговля и склад&#xa;(Trade &amp; Warehouse)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="450" y="520" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-accounting" value="1С:Бухгалтерия&#xa;(Accounting)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="450" y="620" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-f1" value="Заявки, учёт ТМЦ,&#xa;списание" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=10;endArrow=block;endFill=1;endSize=10;labelBackgroundColor=#FFFFFF;" parent="1" source="ctx-warehouse" target="ctx-system" edge="1">
+          <mxGeometry x="-0.1" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx-f2" value="Обмен OLE" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=10;endArrow=block;endFill=1;endSize=10;labelBackgroundColor=#FFFFFF;" parent="1" source="ctx-bookkeeper" target="ctx-system" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx-f3" value="ТМЦ, накладные" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=10;endArrow=block;endFill=1;endSize=10;labelBackgroundColor=#FFFFFF;" parent="1" source="ctx-supplier" target="ctx-system" edge="1">
+          <mxGeometry x="-0.1" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx-f4" value="Согласование заявок" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=10;endArrow=block;endFill=1;endSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ctx-system" target="ctx-mgmt" edge="1">
+          <mxGeometry x="0.1" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx-f5" value="Учёт ТМЦ, остатки,&#xa;движения" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=10;endArrow=block;endFill=1;endSize=10;startArrow=block;startFill=1;startSize=10;labelBackgroundColor=#FFFFFF;" parent="1" source="ctx-system" target="ctx-trade" edge="1">
+          <mxGeometry x="0.1" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx-f6" value="Данные учёта ТМЦ&#xa;(OLE)" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=10;endArrow=block;endFill=1;endSize=10;startArrow=block;startFill=1;startSize=10;labelBackgroundColor=#FFFFFF;dashed=1;" parent="1" source="ctx-system" target="ctx-accounting" edge="1">
+          <mxGeometry x="0.1" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx-legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#999999;fillColor=#F9F9F9;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="640" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-legend-title" value="ЛЕГЕНДА" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="100" y="650" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-leg1" value="E#" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=1;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=9;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="680" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-leg1-t" value="Внешняя сущность" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="150" y="680" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-leg2" value="0" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="715" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-leg2-t" value="Система (Context)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="150" y="725" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx-leg3" value="" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#333333;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="775" as="sourcePoint" />
+            <mxPoint x="140" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx-leg3-t" value="Поток данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="150" y="765" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="info-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#999999;fillColor=#E6F2FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="640" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="info-title" value="СВЯЗЬ С «ФИНАНСОВЫЙ УЧЁТ И ОТЧЁТНОСТЬ»" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="500" y="650" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="info-text" value="1С:Бухгалтерия предприятия обменивается данными с 1С:Торговля и склад (OLE — внутриплатформенный обмен). Учёт ТМЦ в бухгалтерии — проводки, стоимость. Оба контура в файловом режиме. Потоки между системами рекомендуется описать с точки зрения конфиденциальности и аудита." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Verdana;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="500" y="680" width="380" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
