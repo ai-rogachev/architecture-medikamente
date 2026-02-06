@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2026-02-04T16:24:03.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="3k9WamO3UhnNQs7qQzh7" version="24.4.8" type="device" pages="2">
+<mxfile host="Electron" modified="2026-02-06T10:20:41.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="0JWHqK0sHgDtfefliqd2" version="24.4.8" type="device" pages="2">
   <diagram name="DFD Level 1 - Лабораторные исследования" id="dfd-lab-level1">
-    <mxGraphModel dx="2469" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1598" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="40" y="33" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="e-doctor" value="E1&#xa;ВРАЧ&#xa;(Doctor)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="210" y="138" width="120" height="70" as="geometry" />
+          <mxGeometry x="200" y="138" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="e-patient" value="E2&#xa;ПАЦИЕНТ&#xa;(Patient)" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="200" y="283" width="120" height="70" as="geometry" />
@@ -140,7 +140,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f14" value="Образец для&#xa;внешней лаборатории" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1;strokeColor=#333333;fontFamily=Verdana;fontSize=9;endArrow=block;endFill=1;endSize=8;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="p4" target="e-extlab" edge="1">
-          <mxGeometry x="0.5172" relative="1" as="geometry">
+          <mxGeometry x="0.3846" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -270,7 +270,7 @@
           <mxGeometry x="1400" y="263" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="data-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#999999;fillColor=#FFF9E6;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="313" width="480" height="280" as="geometry" />
+          <mxGeometry x="1380" y="313" width="480" height="297" as="geometry" />
         </mxCell>
         <mxCell id="data-label" value="КЛАССИФИКАЦИЯ ДАННЫХ (Data Classification)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1400" y="323" width="350" height="20" as="geometry" />
@@ -287,23 +287,14 @@
         <mxCell id="stores-mapping" value="МАППИНГ ХРАНИЛИЩ:&#xa;D1 (Медкарты) ← [PD]+[PHI] История пациента&#xa;D2 (Реестр) ← [PD]+[SAMPLE] Регистрация анализов&#xa;D3 (Направления) ← [PD]+[PHI] Назначения врача&#xa;D4 (Журнал забора) ← [PD]+[SAMPLE] Учёт образцов&#xa;D5 (Результаты) ← [PHI] Данные исследований&#xa;D6 (Архив) ← [PD]+[PHI] Архивные результаты" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontFamily=Verdana;whiteSpace=wrap;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="513" width="440" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="seq-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#999999;fillColor=#F0F0FF;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="613" width="480" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="seq-label" value="ПОСЛЕДОВАТЕЛЬНОСТЬ ПРОЦЕССА" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="623" width="350" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="seq-text" value="1.0 Назначить анализы → 2.0 Забрать биоматериал → &#xa;3.0 Зарегистрировать в реестре → 4.0 Провести исследование → &#xa;5.0 Оформить результаты → 6.0 Передать результаты&#xa;&#xa;Процесс 4.0 может включать отправку во внешнюю лабораторию (E4)&#xa;для специализированных исследований. Результаты возвращаются&#xa;и регистрируются в D5." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Verdana;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="653" width="440" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="sec-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CC0000;fillColor=#FFE6E6;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="793" width="480" height="160" as="geometry" />
+          <mxGeometry x="1380" y="630" width="480" height="160" as="geometry" />
         </mxCell>
         <mxCell id="sec-label" value="ПРОБЛЕМНЫЕ ЗОНЫ БЕЗОПАСНОСТИ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Verdana;fontColor=#CC0000;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="803" width="350" height="20" as="geometry" />
+          <mxGeometry x="1400" y="640" width="350" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sec-text" value="• D2, D5, D6 — Excel-файлы на общем диске без разграничения доступа&#xa;• Отсутствует аудит: кто просматривал/изменял результаты&#xa;• PHI-данные передаются во внешнюю лабораторию без обезличивания&#xa;• Нет шифрования при хранении результатов анализов&#xa;• Врачебная тайна не обеспечена на уровне систем&#xa;• Нет прослеживаемости (Data Lineage) для результатов" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Verdana;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="833" width="440" height="110" as="geometry" />
+          <mxGeometry x="1400" y="670" width="440" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

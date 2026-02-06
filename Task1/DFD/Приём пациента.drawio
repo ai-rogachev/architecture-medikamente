@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2026-02-04T11:46:56.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="t3uf_zxxgnssAibzq50I" version="24.4.8" type="device" pages="2">
+<mxfile host="Electron" modified="2026-02-06T10:21:13.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="3KLGjx_PhAHZGMhR0Oql" version="24.4.8" type="device" pages="2">
   <diagram name="DFD Level 1 - Приём пациента" id="dfd-level1">
-    <mxGraphModel dx="2326" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2998" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,41 +182,8 @@
             <mxPoint x="-40" y="625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#999999;fillColor=#F9F9F9;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="130" width="480" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="legend-label" value="ЛЕГЕНДА (Legend)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="920" y="140" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="leg-ext" value="E#" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="920" y="170" width="50" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="leg-ext-label" value="Внешняя сущность (External Entity) - источник/приёмник данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="980" y="170" width="380" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="leg-proc" value="N.0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="920" y="215" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="leg-proc-label" value="Процесс (Process) - преобразование данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="980" y="225" width="380" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="leg-store" value="D# | Название" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=0;top=0;bottom=0;strokeWidth=2;strokeColor=#006600;fillColor=#E6FFE6;fontFamily=Verdana;fontSize=9;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="920" y="275" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="leg-store-label" value="Хранилище данных (Data Store) - файл, БД, документы" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="275" width="330" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="leg-flow-solid" value="" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#333333;endFill=1;endSize=8;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="920" y="325" as="sourcePoint" />
-            <mxPoint x="1020" y="325" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="leg-flow-solid-label" value="Поток данных (Data Flow) - передача данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="315" width="330" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="data-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#999999;fillColor=#FFF9E6;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="370" width="480" height="320" as="geometry" />
+          <mxGeometry x="900" y="370" width="510" height="320" as="geometry" />
         </mxCell>
         <mxCell id="data-label" value="КЛАССИФИКАЦИЯ ДАННЫХ (Data Classification)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="920" y="380" width="350" height="20" as="geometry" />
@@ -235,6 +202,48 @@
         </mxCell>
         <mxCell id="stores-mapping" value="МАППИНГ ХРАНИЛИЩ:&#xa;D1 (Журналы) ← [PD] ФИО пациента, дата записи&#xa;D2 (Реестр) ← [PD] Полные ПДн пациентов&#xa;D3 (Медкарты) ← [PD]+[PHI] Медицинская информация&#xa;D4 (Договоры) ← [PD]+[CONTRACT] Юридические документы&#xa;D5 (ККМ) ← [FIN] Фискальные данные&#xa;D6 (Excel) ← [FIN]+[PD] Дубликаты платежей" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontFamily=Verdana;whiteSpace=wrap;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="570" width="440" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#999999;fillColor=#F9F9F9;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="120" width="510" height="223.6" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-2" value="ЛЕГЕНДА (Legend)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="920" y="130" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-3" value="E#" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeWidth=2;strokeColor=#333333;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="920" y="160" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-4" value="Внешняя сущность" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="980" y="160" width="380" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-5" value="N.0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#0050A0;fillColor=#DBEAF9;fontFamily=Verdana;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="920" y="205" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-6" value="Процесс (Process)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="980" y="215" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-7" value="D# | Название" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=0;top=0;bottom=0;strokeWidth=2;strokeColor=#006600;fillColor=#E6FFE6;fontFamily=Verdana;fontSize=9;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="920" y="265" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-8" value="Хранилище данных (Data Store)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="265" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-9" value="" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#333333;endFill=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="315" as="sourcePoint" />
+            <mxPoint x="1020" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-10" value="Поток данных (запись)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="305" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-11" value="" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#333333;endFill=1;endSize=8;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="315" as="sourcePoint" />
+            <mxPoint x="1300" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hqIjykZn1bBYdamIfOgk-12" value="Чтение данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="305" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
